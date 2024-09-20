@@ -1,8 +1,17 @@
 
 ##Define a variable as Integer(1) ,Float(1.0) and String(‘1’) and print and return the value and type of variable ##
-# _Integer = 10
-# _Float = 10.1
-# _String = "Jose"
+# _Integer = 1
+# _Float = 1.0
+# _String = '1'
+# print(_Integer , _Float , _String)
+# print(_Integer , type(_Integer))
+# print(_Float , type(_Float))
+# print(_String , type(_String))
+
+##Redeclare the same variable as another number.(2,2.0 and ‘2’) and share your observation on result.
+# _Integer = 2
+# _Float = 2.0
+# _String = '2'
 # print(_Integer , _Float , _String)
 # print(_Integer , type(_Integer))
 # print(_Float , type(_Float))
@@ -51,33 +60,42 @@
 # x = coordinates[0]
 # y = coordinates[1]
 # z= coordinates[2]
-# print(x ,y ,z)
+# print(x)
+# print(y)
+# print(z)
 
 
 ##Write a Python program to check if the element "blue" is present in the tuple colors = ("red", "green", "blue").
 # colors = ("red", "green", "blue")
-# if (any("green" in i for i in colors)):
-#     print("Green is present")
-# else:
-#     print("Green is not present")
+# findcolor = "blue"
+# result = findcolor in colors
+# print("Element BLUE is present in the tuple colors : ",result)
+
 
 ##Write a Python program to find the length of the tuple days = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday").
 # days = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
 # print(len(days))
 
 ##Create a dictionary where the keys are student names and the values are their grades
-students = {"Alice": 85, "Bob": 90, "Charlie": 78}
+# students = {"Alice": 85, "Bob": 90, "Charlie": 78}
 # print(students)
+
 ##How do you access Bob's grade from the dictionary students
 # print(students["Bob"])
-#
+
 ##Add a new student "David": 92 to the dictionary students = {"Alice": 85, "Bob": 90, "Charlie": 78} and remove "Charlie" from the dictionary
-students["David"] = 92
+# students["David"] = 92
 # print(students)
 # students.pop("Charlie")
 # print(students)
+
 ##Write a Python program to update Bob's grade to 95 in the dictionary students = {"Alice": 85, "Bob": 90, "Charlie": 78}
-students.update({"Bob" : 95})
-print(students)
-##Write a Python program to find the number of key-value pairs in the dictionary students = {"Alice": 85, "Bob": 90, "Charlie": 78}.
-print(len(students))
+# students.update({"Bob" : 95})
+# print(students)
+
+##Write a Python program to check if "Alice" is a key in the dictionary students = {"Alice": 85, "Bob": 90, "Charlie": 78}.
+# keycheck = "Alice" in students
+# print("Alice exist in the dictonary : ",keycheck)
+
+# ##Write a Python program to find the number of key-value pairs in the dictionary students = {"Alice": 85, "Bob": 90, "Charlie": 78}.
+# print(len(students))
