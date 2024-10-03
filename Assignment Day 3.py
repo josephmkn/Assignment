@@ -5,8 +5,8 @@ from itertools import count
 from unittest import removeResult
 
 ##Write a Python function to find the maximum of three numbers
-# numbers = (10,20,100)
-# print("Maximum of 3 number is :",max(numbers))
+numbers = (10,20,100)
+print("Maximum of 3 number is :",max(numbers))
 
 ##Write a Python function to multiply all the numbers in a list.
 # def number_list(mylist):
